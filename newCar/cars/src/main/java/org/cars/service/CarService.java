@@ -21,7 +21,7 @@ public class CarService {
 
 
     public Car create(Car car) {
-        jdbcService.jdbcQuery("insert into cars( brand, model, year, price) Values ('" + car.getBrand() + "','" + car.getModel() + "'," + car.getYear() + "," + car.getPrice() + ")");
+        jdbcService.jdbcQuery("insert into cars( brand, model, year, price,id) Values ('" + car.getBrand() + "','" + car.getModel() + "'," + car.getYear() + "," + car.getPrice() + ","+car.getId()+")");
         return car;
     }
 

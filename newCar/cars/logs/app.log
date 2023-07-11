@@ -1,0 +1,59 @@
+11-07-2023 00:01:05.820 [main] INFO  org.cars.AvtoManagerApplication - Starting AvtoManagerApplication using Java 20.0.1 with PID 12678 (/home/sania/MyProjects/newCar/cars/target/classes started by sania in /home/sania/MyProjects/newCar/cars)
+11-07-2023 00:01:05.828 [main] INFO  org.cars.AvtoManagerApplication - No active profile set, falling back to 1 default profile: "default"
+11-07-2023 00:01:06.666 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11-07-2023 00:01:06.674 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11-07-2023 00:01:06.674 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+11-07-2023 00:01:06.740 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11-07-2023 00:01:06.740 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 870 ms
+11-07-2023 00:01:07.866 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11-07-2023 00:01:07.875 [main] INFO  org.cars.AvtoManagerApplication - Started AvtoManagerApplication in 2.477 seconds (process running for 2.964)
+11-07-2023 00:01:18.808 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-07-2023 00:01:18.808 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11-07-2023 00:01:18.809 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11-07-2023 00:01:19.298 [http-nio-8080-exec-4] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 223 ms
+11-07-2023 00:01:30.696 [http-nio-8080-exec-5] INFO  org.cars.controller.CarsController - Create Car = Car{brand='BMW', model='E34', year=1990, price=2500.0, id=100}
+11-07-2023 00:02:24.240 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('w' (code 119)): was expecting comma to separate Object entries]
+11-07-2023 00:03:22.581 [main] INFO  org.cars.AvtoManagerApplication - Starting AvtoManagerApplication using Java 20.0.1 with PID 12987 (/home/sania/MyProjects/newCar/cars/target/classes started by sania in /home/sania/MyProjects/newCar/cars)
+11-07-2023 00:03:22.583 [main] INFO  org.cars.AvtoManagerApplication - No active profile set, falling back to 1 default profile: "default"
+11-07-2023 00:03:23.523 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11-07-2023 00:03:23.532 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11-07-2023 00:03:23.532 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+11-07-2023 00:03:23.599 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11-07-2023 00:03:23.599 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 952 ms
+11-07-2023 00:03:24.771 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11-07-2023 00:03:24.782 [main] INFO  org.cars.AvtoManagerApplication - Started AvtoManagerApplication in 2.617 seconds (process running for 3.12)
+11-07-2023 00:03:27.028 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-07-2023 00:03:27.028 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11-07-2023 00:03:27.030 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+11-07-2023 00:03:27.457 [http-nio-8080-exec-4] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 217 ms
+11-07-2023 00:03:39.366 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('u' (code 117)): was expecting comma to separate Object entries]
+11-07-2023 00:04:10.134 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected end-of-input within/between Object entries]
+11-07-2023 00:10:54.697 [main] INFO  org.cars.AvtoManagerApplication - Starting AvtoManagerApplication using Java 20.0.1 with PID 13298 (/home/sania/MyProjects/newCar/cars/target/classes started by sania in /home/sania/MyProjects/newCar/cars)
+11-07-2023 00:10:54.698 [main] INFO  org.cars.AvtoManagerApplication - No active profile set, falling back to 1 default profile: "default"
+11-07-2023 00:10:55.549 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11-07-2023 00:10:55.556 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11-07-2023 00:10:55.557 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+11-07-2023 00:10:55.621 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11-07-2023 00:10:55.621 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 880 ms
+11-07-2023 00:10:56.834 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11-07-2023 00:10:56.843 [main] INFO  org.cars.AvtoManagerApplication - Started AvtoManagerApplication in 2.588 seconds (process running for 3.076)
+11-07-2023 00:10:57.974 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-07-2023 00:10:57.974 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11-07-2023 00:10:57.975 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+11-07-2023 00:10:58.423 [http-nio-8080-exec-4] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 244 ms
+11-07-2023 00:11:09.258 [http-nio-8080-exec-5] INFO  org.cars.controller.CarsController - Удален Car = -2
+11-07-2023 00:12:37.959 [http-nio-8080-exec-7] INFO  org.cars.controller.CarsController - Удален Car = 16
+11-07-2023 00:15:32.393 [main] INFO  org.cars.AvtoManagerApplication - Starting AvtoManagerApplication using Java 20.0.1 with PID 13643 (/home/sania/MyProjects/newCar/cars/target/classes started by sania in /home/sania/MyProjects/newCar/cars)
+11-07-2023 00:15:32.395 [main] INFO  org.cars.AvtoManagerApplication - No active profile set, falling back to 1 default profile: "default"
+11-07-2023 00:15:33.247 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11-07-2023 00:15:33.255 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11-07-2023 00:15:33.256 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+11-07-2023 00:15:33.320 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11-07-2023 00:15:33.320 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 879 ms
+11-07-2023 00:15:34.438 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11-07-2023 00:15:34.447 [main] INFO  org.cars.AvtoManagerApplication - Started AvtoManagerApplication in 2.489 seconds (process running for 3.033)
+11-07-2023 00:15:56.491 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-07-2023 00:15:56.492 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11-07-2023 00:15:56.493 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11-07-2023 00:15:56.934 [http-nio-8080-exec-3] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 240 ms
+11-07-2023 00:16:39.653 [http-nio-8080-exec-5] INFO  org.cars.controller.CarsController - Удален Car = 100

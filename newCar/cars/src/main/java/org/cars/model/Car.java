@@ -1,5 +1,6 @@
 package org.cars.model;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.stereotype.Service;
@@ -7,13 +8,19 @@ import org.springframework.stereotype.Service;
 @Service
 @Getter
 @Setter
-
+@Schema
 
 public class Car {
+
+    @Schema(description = "Brand of the Car.",type = "String",name = "brand",example = "BMW")
     private String brand;
+    @Schema(description = "Model of the Car.",example = "E34")
     private String model;
+    @Schema(description = "Year of the Car.",example = "1990")
     private int year;
+    @Schema(description = "Brand of the Car.",example = "2500")
     private double price;
+    @Schema(description = "ID of the Car.",example = "7")
     private long id;
 
     public Car() {
