@@ -1,24 +1,10 @@
 {
-	"dataList":[
-		{
-			"hostGroup":[
-				{
-					"env":"local",
-					"url":"http://localhost:8080"
-				}
-			],
-			"name":"cars"
-		}
-	],
-	"envList":[
-		"local"
-	],
+	"dataList":[],
+	"envList":[],
 	"headerList":[],
 	"postScript":"",
 	"preScript":"",
-	"projectList":[
-		"cars"
-	],
+	"projectList":[],
 	"syncModel":{
 		"branch":"master",
 		"domain":"https://github.com",
