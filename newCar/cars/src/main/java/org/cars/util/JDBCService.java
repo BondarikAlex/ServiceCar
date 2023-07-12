@@ -22,7 +22,7 @@ public class JDBCService {
     Connection connection;
     PostgresService postgresService;
     Statement statement;
-   private ResultSet resultSet;
+    private ResultSet resultSet;
 
 
     /**
@@ -52,9 +52,7 @@ public class JDBCService {
     }
 
 
-
-
-    public ArrayList<Car> getCarList() throws SQLException, NullPointerException {
+    public ArrayList<Car> getCarList(ResultSet resultSet) throws SQLException, NullPointerException {
         ArrayList<Car> list = new ArrayList<>();
         while (resultSet.next()) {
             Car car = new Car();
@@ -62,40 +60,23 @@ public class JDBCService {
             car.setBrand(resultSet.getString("brand"));
             car.setModel(resultSet.getString("model"));
             car.setYear(resultSet.getInt("year"));
-            car.setPrice(resultSet.getInt("price"));
+            car.setPrice(resultSet.getDouble("price"));
             list.add(car);
         }
         return list;
     }
 
 
-
-    public Car getCar(long id) throws SQLException,NullPointerException {
-        Car car=new Car();
-        while (resultSet.next()){
-        System.out.println(resultSet.getString("brand"));
-        car.setBrand(resultSet.getString("brand"));
-        car.setModel(resultSet.getString("model"));
-        car.setYear(resultSet.getInt("year"));
-        car.setPrice(resultSet.getInt("price"));
-        car.setId(resultSet.getInt("id"));}
-        return car;
-        }
-
-
-
-
-
-    public String jdbcQuery(String query) {
-        try {System.out.println("jdbcQuery method     :  query - " + query);
+    public ResultSet jdbcQuery(String query) {
+        try {
+            System.out.println("jdbcQuery method : query - " + query);
             resultSet = statement.executeQuery(query);
-           // System.out.println(resultSet.getString("brand"));
             System.out.println("Запрос выполнен!");
         } catch (SQLException | NullPointerException e) {
             System.out.println(e.getMessage());
             System.out.println("Запрос не выполнен либо нет результата отправки запроса!");
         }
-        return query;
+        return resultSet;
     }
 
 
@@ -107,13 +88,6 @@ public class JDBCService {
         }
     }
 
-    public void readDB(String query) {
-        try {
-            resultSet = statement.executeQuery(query);
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-    }
 
     @PreDestroy
     public void conClose() {

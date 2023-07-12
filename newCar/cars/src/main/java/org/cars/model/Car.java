@@ -12,15 +12,15 @@ import org.springframework.stereotype.Service;
 
 public class Car {
 
-    @Schema(description = "Brand of the Car.",type = "String",name = "brand",example = "BMW")
+    @Schema(description = "Brand of the Car.", type = "String", name = "brand", example = "BMW")
     private String brand;
-    @Schema(description = "Model of the Car.",example = "E34")
+    @Schema(description = "Model of the Car.", example = "E34")
     private String model;
-    @Schema(description = "Year of the Car.",example = "1990")
+    @Schema(description = "Year of the Car.", example = "1990")
     private int year;
-    @Schema(description = "Brand of the Car.",example = "2500")
+    @Schema(description = "Brand of the Car.", example = "2500")
     private double price;
-    @Schema(description = "ID of the Car.",example = "7")
+    @Schema(description = "ID of the Car.", example = "7")
     private long id;
 
     public Car() {
@@ -41,7 +41,6 @@ public class Car {
         this.price = price;
         this.id = id;
     }
-
 
 
     public String getBrand() {
